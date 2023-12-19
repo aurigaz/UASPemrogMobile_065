@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Welcome Abi,',
+                          'Hello Abi',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
@@ -92,7 +92,7 @@ class MyHomePage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: AvatarFrame(
-                              imageUrl: 'https://pbs.twimg.com/media/ElL8ph0U0AAXq5W.jpg',
+                              imageUrl: 'https://i.pinimg.com/564x/29/a2/16/29a216ba44824e901f8dece6145308fd.jpg',
                             ),
                           ),
                         ],
@@ -174,19 +174,19 @@ class MyHomePage extends StatelessWidget {
                   child: Row(
                     children: [
                       RecipeCard(
-                        imageUrl: 'https://cdn1-production-images-kly.akamaized.net/uBuE5OD3B9pUTVNJd81cB819z7Y=/0x194:5616x3359/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3048436/original/030475400_1581499756-shutterstock_413580649.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/29/ad/36/29ad3685524996dabc544ebab4763a33.jpg',
                         dishName: 'Spaghetti Bolognese',
                         time: '30-45 Minutes',
                         difficulty: 'Medium',
-                        chefName: 'Maria',
+                        chefName: 'Miriam Belina',
                       ),
                       SizedBox(width: 20),
                       RecipeCard(
-                        imageUrl: 'https://img.taste.com.au/d4JNfJUH/taste/2019/07/classic-beef-stew-151457-2.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/a4/80/3e/a4803ee4ed77c29af9fadda59480a395.jpg',
                         dishName: 'Classic Beef Stew',
-                        time: '45-60 Minutes',
+                        time: '30-45 Minutes',
                         difficulty: 'Easy',
-                        chefName: 'Niki',
+                        chefName: 'James Nikidow',
                       ),
                     ],
                   ),
@@ -196,7 +196,7 @@ class MyHomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Popular Actor',
+                      'Popular Chef',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -206,7 +206,7 @@ class MyHomePage extends StatelessWidget {
                     TextButton(
                       onPressed: () {
                         // Handle the "See All" action here
-                        print('See All Popular Actor pressed');
+                        print('See All Popular Chef pressed');
                       },
                       child: Text(
                         'See All',
@@ -224,19 +224,19 @@ class MyHomePage extends StatelessWidget {
                   child: Row(
                     children: [
                       AvatarRecipeCard(
-                        imageUrl: 'https://img.wattpad.com/cover/337063381-256-k969823.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/d8/19/4f/d8194fcedc2f2e630eca12f1c054851b.jpg',
                         chefName: 'I can Tooth',
                         time: '124',
                         difficulty: '41391',
-                        dishName: 'John',
+                        dishName: 'James Nikidaw',
                       ),
                       SizedBox(width: 10),
                       AvatarRecipeCard(
-                        imageUrl: 'https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/navia/image.png?strip=all&quality=100',
+                        imageUrl: 'https://i.pinimg.com/564x/c8/49/38/c84938384eacdba9c9040d5cd3e70067.jpg',
                         chefName: 'You Pink Sun',
                         time: '98',
                         difficulty: '7323',
-                        dishName: 'Emily',
+                        dishName: 'Miriam Belina',
                       ),
                     ],
                   ),
