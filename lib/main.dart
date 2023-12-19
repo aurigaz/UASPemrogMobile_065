@@ -225,7 +225,7 @@ class MyHomePage extends StatelessWidget {
                     children: [
                       AvatarRecipeCard(
                         imageUrl: 'https://i.pinimg.com/564x/d8/19/4f/d8194fcedc2f2e630eca12f1c054851b.jpg',
-                        chefName: 'I can Tooth',
+                        chefName: 'James Nikidaw',
                         time: '124',
                         difficulty: '41391',
                         dishName: 'James Nikidaw',
@@ -233,7 +233,7 @@ class MyHomePage extends StatelessWidget {
                       SizedBox(width: 10),
                       AvatarRecipeCard(
                         imageUrl: 'https://i.pinimg.com/564x/c8/49/38/c84938384eacdba9c9040d5cd3e70067.jpg',
-                        chefName: 'You Pink Sun',
+                        chefName: 'Miriam Belina',
                         time: '98',
                         difficulty: '7323',
                         dishName: 'Miriam Belina',
@@ -317,7 +317,7 @@ class RecipeCard extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+            color: Color.fromARGB(255, 219, 140, 20).withOpacity(0.5),
             spreadRadius: 5,
             blurRadius: 7,
             offset: Offset(0, 3),
@@ -357,14 +357,14 @@ class RecipeCard extends StatelessWidget {
                 Icon(
                   Icons.access_time,
                   size: 14,
-                  color: const Color.fromARGB(255, 129, 129, 129),
+                  color: Color.fromARGB(255, 0, 0, 0),
                 ),
                 SizedBox(width: 4),
                 Text(
                   time,
                   style: TextStyle(
                     fontSize: 12,
-                    color: const Color.fromARGB(255, 129, 129, 129),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                 ),
               ],
@@ -398,14 +398,14 @@ class RecipeCard extends StatelessWidget {
                 Icon(
                   Icons.person,
                   size: 14,
-                  color: const Color.fromARGB(255, 129, 129, 129),
+                  color: Color.fromARGB(255, 0, 0, 0),
                 ),
                 SizedBox(width: 4),
                 Text(
                   chefName,
                   style: TextStyle(
                     fontSize: 12,
-                    color: const Color.fromARGB(255, 129, 129, 129),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                 ),
               ],
@@ -422,7 +422,7 @@ class AvatarRecipeCard extends StatelessWidget {
   final String time; // Assuming time should be replaced with a book icon
   final String difficulty; // Assuming difficulty should be replaced with a heart icon
   final String imageUrl; // Image URL for the frame
-final String chefName;
+  final String chefName;
   AvatarRecipeCard({
     required this.dishName,
     required this.time,
@@ -443,7 +443,7 @@ final String chefName;
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+            color: Color.fromARGB(255, 219, 140, 20).withOpacity(0.5),
             spreadRadius: 5,
             blurRadius: 7,
             offset: Offset(0, 3),
@@ -461,7 +461,7 @@ final String chefName;
                 topLeft: Radius.circular(12),
                 topRight: Radius.circular(12),
               ),
-              color: const Color.fromARGB(255, 218, 218, 218), // You can change the background color
+              color: Color.fromARGB(255, 219, 140, 20), // You can change the background color
             ),
             child: Center(
               child: CircleAvatar(
@@ -490,14 +490,14 @@ final String chefName;
                 Icon(
                   Icons.book, // Change the icon to a book
                   size: 14,
-                  color: const Color.fromARGB(255, 129, 129, 129),
+                  color: Color.fromARGB(255, 0, 0, 0),
                 ),
                 SizedBox(width: 6),
                 Text(
                   time, // Assuming time is replaced with a book icon
                   style: TextStyle(
                     fontSize: 12,
-                    color: const Color.fromARGB(255, 129, 129, 129),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                 ),
               ],
