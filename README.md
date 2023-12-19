@@ -4,6 +4,7 @@ A new Flutter project.
 
 Implementasi UI design menggunakan flutter
 
-*Hasil*
+# Hasil
+
 ![A POS application](src/hasil.png)
 ![A POS application](src/hasil2.png)
